@@ -16,8 +16,6 @@
 
   this.SERVERS = require('./servers.json');
 
-  console.log("test");
-
   this.lookup = (function(_this) {
     return function(addr, options, done) {
       var _lookup, parts, proxy, server, sockOpts, socket, timeout, tld;

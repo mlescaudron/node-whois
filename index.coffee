@@ -6,7 +6,6 @@ util = require 'util'
 
 
 @SERVERS = require './servers.json'
-console.log "test"
 @lookup = (addr, options, done) =>
 	if typeof done is 'undefined' and typeof options is 'function'
 		done = options
